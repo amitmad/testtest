@@ -22,10 +22,10 @@
 
 require_once("mysql.class.php");
 
-$dbHost = "localhost";
-$dbUsername = "root";
-$dbPassword = "21236161";
-$dbName = "test";
+$dbHost = "192.168.1.9";
+$dbUsername = "admin";
+$dbPassword = "admin123#";
+$dbName = "chatvat";
 
 
 $db = new MySQL($dbHost,$dbUsername,$dbPassword,$dbName);

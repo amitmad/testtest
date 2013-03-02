@@ -21,7 +21,7 @@ import com.mekya.interfaces.ISocketOperator;
 
 public class SocketOperator implements ISocketOperator
 {
-	private static final String AUTHENTICATION_SERVER_ADDRESS = "http://localhost/android_im/";
+	private static final String AUTHENTICATION_SERVER_ADDRESS = "http://192.168.1.9/android_im/";
 	
 	private int listeningPort = 0;
 	
